@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --color-orange: #fd7e14
+}
+
+/*ligth theme*/
+.bg-orange{background-color: var(--color-orange) }
+.text-orange{color: var(--color-orange)}
+
+
+
+
+/*Dark theme*/
