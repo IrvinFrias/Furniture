@@ -1,0 +1,32 @@
+<ng-container>
+  <div class="d-flex flex-wrap-reverse">
+    <div class="col-12 col-xl-6 pt-5 px-5">
+        <img class="w-100" [src]="img.src" [alt]="img.alt"/>
+      <div class="d-flex justify-content-between mt-4">
+        <p class="text-blue text-decoration-underline fs-5 pointer">Furnitures</p>
+        <p class="text-orange text-decoration-underline fs-5 pointer">{{ '$450 MXN'}}</p>
+      </div>
+    </div>
+    <div class="col-12 col-xl-6 p-5">
+      <h1 class="fw-bold">Our<span class="text-blue"> Products</span></h1>
+      <p class="col-11 text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam
+        cum eaque eius facere illum labore, magni, minus nesciunt nihil obcaecati optio perspiciatis quo recusandae
+        sapiente ullam vitae! Eligendi facilis ipsum nostrum sequi sint vitae?</p>
+
+      <button class="border-0 bg-orange rounded-0 text-white fw-bold p-2 col-4 col-md-3 col-xl-3 mt-3"
+              type="button">But Now</button>
+
+    </div>
+  </div>
+
+  <div class="d-flex flex-wrap justify-content-between px-1 px-xl-5">
+    <div *ngFor="let product of products" class="col-6 col-xl-4 p-3">
+      <img class="w-100" [src]="product.src" [alt]="product.alt">
+      <div class="d-flex justify-content-between mt-4">
+        <p class="text-blue text-decoration-underline fs-5 pointer">{{product.name}}</p>
+        <p class="text-orange text-decoration-underline fs-5 pointer">{{ product.price }}</p>
+      </div>
+    </div>
+
+  </div>
+</ng-container>

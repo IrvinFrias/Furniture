@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
-interface Fact{
-  number: string,
-  field: string
-}
-interface Image{
-  src: string,
-  alt: string
-}
+import {Image} from "../../../Types/Image";
+import {Fact} from "../../../Types/Fact";
 
 
 @Component({
