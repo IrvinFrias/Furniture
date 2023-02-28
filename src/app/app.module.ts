@@ -7,13 +7,17 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './Components/home/home.component';
 import { CarouselComponent } from './Components/carousel/carousel.component';
+import { ChooseUsComponent } from './Components/choose-us/choose-us.component';
+import { AboutShopComponent } from './Components/about-shop/about-shop.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    CarouselComponent
+    CarouselComponent,
+    ChooseUsComponent,
+    AboutShopComponent
   ],
   imports: [
     BrowserModule,

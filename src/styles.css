@@ -1,11 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
-  --color-orange: #fd7e14
+  --color-orange: #fd7e14;
+  --color-blue: #4C7A8D;
 }
 
 /*ligth theme*/
 .bg-orange{background-color: var(--color-orange) }
+.bg-blue{background-color: var(--color-blue)}
 .text-orange{color: var(--color-orange)}
+.text-blue{color: var(--color-blue)}
+
+
+.text-justify{text-align: justify}
 
 
 

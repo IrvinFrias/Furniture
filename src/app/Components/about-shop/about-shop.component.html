@@ -1,0 +1,21 @@
+<ng-container>
+  <div class="bg-light d-flex flex-wrap-reverse">
+    <div class="col-12 col-xl-6 p-5">
+      <h1 class="fw-bold">About <span class="text-blue">The Shop</span></h1>
+      <p class="col-10 text-justify mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa,
+        dolor, dolore eos facere maxime modi nam nisi numquam, quam rem repudiandae sequi soluta vel.</p>
+      <div class="d-flex flex-nowrap">
+        <div class="me-5 d-flex flex-column align-items-center justify-content-center" *ngFor="let fact of facts">
+          <h1 class="text-blue fw-bold text-nowrap">{{fact.number}}</h1>
+          <p class="fw-bold">{{fact.field}}</p>
+        </div>
+      </div>
+      <span class="fs-5 text-orange fw-bold text-decoration-underline" >Learn More</span>
+    </div>
+
+    <div class="col-12 col-xl-6 pe-xl-5">
+      <img class="w-100" [src]="img.src" [alt]="img.alt">
+    </div>
+
+  </div>
+</ng-container>

@@ -1,1 +1,32 @@
-<p>carousel works!</p>
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide *ngFor="let item of images " >
+    <div class="picsum-img-wrapper">
+      <img loading="lazy" class="m-0 p-0 w-100" [src]="item.path" [alt]="item.alt">
+    </div>
+    <div class="carousel-caption">
+      <h3>{{item.title}}</h3>
+      <p>{{item.description}}</p>
+    </div>
+  </ng-template>
+
+
+<!--  <ng-template ngbSlide>-->
+<!--    <div class="picsum-img-wrapper">-->
+<!--      <img class="m-0 p-0 w-100" [src]="arr[1]" alt="Random first slide">-->
+<!--    </div>-->
+<!--    <div class="carousel-caption">-->
+<!--      <h3>Forniture</h3>-->
+<!--      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At et possimus quo ullam vitae, voluptatibus?</p>-->
+<!--    </div>-->
+<!--  </ng-template>-->
+<!--  <ng-template ngbSlide>-->
+<!--    <div class="picsum-img-wrapper">-->
+<!--      <img class="m-0 p-0 w-100" [src]="arr[2]" alt="Random first slide">-->
+<!--    </div>-->
+<!--    <div class="carousel-caption">-->
+<!--      <h3>Forniture</h3>-->
+<!--      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At et possimus quo ullam vitae, voluptatibus?</p>-->
+<!--    </div>-->
+<!--  </ng-template>-->
+
+</ngb-carousel>

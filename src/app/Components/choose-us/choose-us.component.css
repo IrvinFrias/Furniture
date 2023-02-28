@@ -1,0 +1,9 @@
+.galeria-small{
+  position: absolute;
+  top: 5rem;
+  left: 60%
+}
+.square{
+  padding: 1rem;
+  background-color: var(--color-orange);
+}
