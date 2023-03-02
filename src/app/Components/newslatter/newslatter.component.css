@@ -1,0 +1,13 @@
+.input{
+  padding: 0.6rem;
+  outline: var(--color-orange);
+  color: white;
+}
+.input-submit{
+  background-color: var(--color-orange);
+  color: white;
+  font-weight: bold;
+  padding: 0.6rem;
+  border: none;
+
+}

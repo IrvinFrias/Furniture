@@ -1,0 +1,13 @@
+.paragraph:after{
+  content: '"';
+  color: #fd7e14;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.paragraph:before{
+  content: '"';
+  color: #fd7e14;
+  font-size: 2rem;
+  font-weight: bold;
+}
+

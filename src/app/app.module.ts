@@ -12,6 +12,8 @@ import { AboutShopComponent } from './Components/about-shop/about-shop.component
 import { OurProductsComponent } from './Components/our-products/our-products.component';
 import { OurGalleryComponent } from './Components/our-gallery/our-gallery.component';
 import {NgOptimizedImage} from "@angular/common";
+import { CustomerSaysComponent } from './Components/customer-says/customer-says.component';
+import { NewslatterComponent } from './Components/newslatter/newslatter.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import {NgOptimizedImage} from "@angular/common";
     ChooseUsComponent,
     AboutShopComponent,
     OurProductsComponent,
-    OurGalleryComponent
+    OurGalleryComponent,
+    CustomerSaysComponent,
+    NewslatterComponent
   ],
   imports: [
     BrowserModule,
