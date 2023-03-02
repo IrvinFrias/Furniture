@@ -1,19 +1,21 @@
 <ng-container>
   <div class="d-flex flex-wrap">
-    <div class="position-relative col-12 col-lg-6 p-5">
+    <div class="position-relative col-12 col-lg-6 p-xl-5 p-2 mt-3">
       <img class="galeria-big w-75" [src]="images[0]" alt="galeria">
       <img class="galeria-small col-4" [src]="images[1]" alt="galeria">
     </div>
-    <div class="col-12 col-lg-6 mt-5">
-      <div class="d-flex flex-column align-items-center align-items-xl-start">
+
+    <div class="col-12 col-xl-6 mt-5">
+      <div class="col-11 col-xl-12 mx-auto">
         <h1 class="fw-bold">Why <span class="text-blue">Choose us?</span></h1>
-        <p class="col-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto,
+        <p class="text-justify col-xl-11 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+          architecto,
           asperiores commodi consequuntur eos fugiat ipsa ipsum laboriosam laudantium maxime minima molestias, nostrum
           numquam odit pariatur perferendis
         </p>
       </div>
 
-      <div class="mt-5">
+      <div class="mt-5 col-xl-12 col-10 mx-auto">
         <div class="d-flex mb-4 justify-content-center justify-content-xl-start" *ngFor="let reason of reasons; index
         as i">
           <div>
