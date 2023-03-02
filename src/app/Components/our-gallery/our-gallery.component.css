@@ -1,0 +1,25 @@
+.grid-1 {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  grid-template-areas:
+    "gallery gallery"
+    "photo1 photo2"
+    "photo3 photo4";
+  gap: 1rem 2rem;
+}
+.gallery{
+  grid-area: gallery;
+}
+
+.grid-2{
+ display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-template-areas:
+    "bigphoto bigphoto bigphoto"
+    "bigphoto bigphoto bigphoto"
+    "photo5 photo6 photo7"
+  ;
+}
+.bigphoto{
+  grid-area: bigphoto;
+}

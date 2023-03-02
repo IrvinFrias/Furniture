@@ -29,10 +29,6 @@ export class ChooseUsComponent {
       title: 'Lorem ipsum dolor sit amet',
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, id!'
     },
-    {
-      title: 'Lorem ipsum dolor sit amet',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, id!'
-    }
 
   ];
 

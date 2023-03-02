@@ -10,6 +10,8 @@ import { CarouselComponent } from './Components/carousel/carousel.component';
 import { ChooseUsComponent } from './Components/choose-us/choose-us.component';
 import { AboutShopComponent } from './Components/about-shop/about-shop.component';
 import { OurProductsComponent } from './Components/our-products/our-products.component';
+import { OurGalleryComponent } from './Components/our-gallery/our-gallery.component';
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { OurProductsComponent } from './Components/our-products/our-products.com
     CarouselComponent,
     ChooseUsComponent,
     AboutShopComponent,
-    OurProductsComponent
+    OurProductsComponent,
+    OurGalleryComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([{path: 'home', component: HomeComponent}]),
-    NgbModule
+    NgbModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
