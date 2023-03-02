@@ -14,6 +14,7 @@ import { OurGalleryComponent } from './Components/our-gallery/our-gallery.compon
 import {NgOptimizedImage} from "@angular/common";
 import { CustomerSaysComponent } from './Components/customer-says/customer-says.component';
 import { NewslatterComponent } from './Components/newslatter/newslatter.component';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NewslatterComponent } from './Components/newslatter/newslatter.componen
     OurProductsComponent,
     OurGalleryComponent,
     CustomerSaysComponent,
-    NewslatterComponent
+    NewslatterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
